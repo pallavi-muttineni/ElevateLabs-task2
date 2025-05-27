@@ -12,7 +12,7 @@ A simple and dynamic To-Do list application built using pure JavaScript, HTML, a
 ## Live Demo
 
 You can see the live application running here:
-[Live To-Do App](https://pallavi_muttineni.github.io/ElevateLabs-task2/)
+[Live To-Do App](https://pallavi-muttineni.github.io/ElevateLabs-task2/)
 
 ## How to Run Locally
 
