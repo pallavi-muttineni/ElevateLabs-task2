@@ -43,4 +43,4 @@ You can see the live application running here:
 
 ## Screenshots (Optional but Recommended)
 
-![Screenshot of the To-Do List ](https://raw.githubusercontent.com/pallavi-muttineni/Elevatelabs-task/main/images/todo-screenshot.jpg)
+![Screenshot of the To-Do List ](/todo-screenshot.jpg)
