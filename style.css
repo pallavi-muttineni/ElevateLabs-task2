@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top, allowing for content expansion */
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding-top: 50px; /* Add some padding from the top */
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+#taskInput {
+    flex-grow: 1; /* Allows input to take up available space */
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#addTaskBtn {
+    padding: 12px 20px;
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#addTaskBtn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+#taskList {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+#taskList li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #eee;
+    transition: background-color 0.3s ease;
+}
+
+#taskList li.completed {
+    background-color: #e0ffe0; /* Light green for completed tasks */
+    text-decoration: line-through;
+    color: #777;
+}
+
+#taskList li span {
+    flex-grow: 1; /* Allow task text to take up space */
+    cursor: pointer; /* Indicate it's clickable for completion */
+}
+
+#taskList li .actions {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+#taskList li .delete-btn {
+    background-color: #dc3545; /* Red */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+#taskList li .delete-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
